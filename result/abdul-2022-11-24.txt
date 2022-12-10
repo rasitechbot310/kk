@@ -1,0 +1,32 @@
+{
+  "responseTime": "1.55",
+  "statusText": "Berhasil",
+  "data": [
+    {
+      "_id": "636ef38d2a612cee3a461226",
+      "id": 140057,
+      "gerai_id": 79,
+      "jenis_vaksin_id": 8,
+      "tanggal": "2021-07-17",
+      "nik": "327504041190013",
+      "nama": "abdul",
+      "tempat_lahir": "BEKASI",
+      "tgl_lahir": "2021-07-19",
+      "alamat": "jl. Kp utan",
+      "jenis_kelamin": "laki-laki",
+      "dosis": "dosis 1",
+      "kipi": "0",
+      "telepon": "087783805220",
+      "keterangan": "SEHAT",
+      "created_at": null,
+      "updated_at": null,
+      "gerai_nama": "GERAI VAKSIN POLRES METRO BEKASI KOTA",
+      "kelurahan_nama": "Harapan Mulya",
+      "kecamatan_nama": "Medan Satria",
+      "kota_nama": "Kota Bekasi",
+      "jenis_vaksin_nama": "SINOVAC",
+      "action": "                <form method=\"POST\" action=\"https://ktjaya.metro.polri.go.id/admin/vaksin/140057\" accept-charset=\"UTF-8\" class=\"form-inline\">\n                    <input type=\"hidden\" name=\"_token\" value=\"WMim2mmNqT5S3CQgqqhZxLnSIJxglHSNtACSv1iV\">                    <input name=\"_method\" type=\"hidden\" value=\"DELETE\">\n                    <div class=\"form-group\">\n                        <button type=\"button\" data-href=\"https://ktjaya.metro.polri.go.id/admin/vaksin/140057/edit\" data-container=\".vaksin_modal\" class=\"btn btn-sm btn-outline-info btn-action btn-modal\"><i class=\"fa fa-edit\"></i> Edit</a>\n                    </div>\n                    <div class=\"form-group\">\n                        <button type=\"submit\" class=\"btn btn-sm btn-outline-danger btn-action btn-delete\"><i class=\"fa fa-trash\"></i> Hapus</button>\n                    </div>\n                </form>\n            ",
+      "__v": 0
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+
+
+body {
+    display: flex;
+    width: 100%;
+    padding: 0 100px;
+    justify-content: flex-end;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.containerSearchBox {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 4px 1px rgb(109, 109, 109, 0.2);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+
+.searchBox {
+    box-sizing: border-box;
+    width: 0px;
+    overflow: hidden;
+    position: absolute;
+    background-color: inherit;
+    height: 100%;
+    top: auto;
+    right: 40px;
+    transition: width 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 4px 1px rgb(109, 109, 109, 0.2);
+}
+.searchBoxActive {
+    width: 190px;
+}
+#searchInput {
+    box-sizing: border-box;
+    width: 100%;
+    border-style: none;
+    outline-style: none;
+    padding: 0 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: inherit;
+}
+
+
+
+.content {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 9999;
+    top: 40px;
+    right: 0;
+    width: 230px;
+    padding: 10px 10px;
+    background-color: rgb(199, 199, 199);
+    display: none;
+    flex-direction: column;
+}
+
+
+.contentLinkList {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.contentSug {
+    box-sizing: border-box;
+    min-height: 30px;
+    margin-bottom: 7px;
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+.contentSug:hover {
+    background-color: rgb(255, 255, 255);
+}
+.contentSugActive {
+    background-color: rgb(255, 255, 255);
+}
